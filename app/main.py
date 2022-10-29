@@ -27,7 +27,7 @@ app.add_middleware(
 
 
 
- @app.get("/")
+@app.get("/")
 def root():
     return {"message": "Hello World pushing out to ubuntu"}
 
