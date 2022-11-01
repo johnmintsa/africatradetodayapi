@@ -8,7 +8,7 @@ from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
 from app.database.database import get_db, SessionLocal, engine
 from typing import Optional, List
-from oauth2.oauth2 import get_current_user
+from app.oauth2.oauth2 import get_current_user
 
 
 router = APIRouter(
