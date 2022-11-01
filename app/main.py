@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import post,users, auth, vote
+from router import post,users, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
 
 
