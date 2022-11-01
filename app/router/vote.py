@@ -2,11 +2,11 @@ from email import message
 from optparse import Option
 from turtle import pos
 
-from models import models 
-from schema import schemas
+from app.models import models 
+from app.schema import schemas
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
-from database.database import get_db, SessionLocal, engine
+from app.database.database import get_db, SessionLocal, engine
 from typing import Optional, List
 from oauth2.oauth2 import get_current_user
 

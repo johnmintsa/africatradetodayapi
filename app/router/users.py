@@ -1,9 +1,9 @@
-from models import models 
-from schema import schemas
+from app.models import models 
+from app.schema import schemas
 from util import util
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
-from database.database import get_db, SessionLocal, engine
+from app.database.database import get_db, SessionLocal, engine
 
 
 router = APIRouter(
