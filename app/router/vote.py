@@ -1,7 +1,3 @@
-from email import message
-from optparse import Option
-from turtle import pos
-
 from app.models import models 
 from app.schema import schemas
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
