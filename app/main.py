@@ -26,7 +26,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"message": "Hello World pushing!!!"}
+    return {"message": "Welcome to Africa Trade Today"}
 
 
 
